@@ -7,6 +7,7 @@ class BoardGanglionBLE extends BoardGanglion {
     }
 
     public BoardGanglionBLE(String serialPort, String macAddress) {
+	
         super();
         this.serialPort = serialPort;
         this.macAddress = macAddress;
